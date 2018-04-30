@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/steve626/fiendFinder/issues"
   },
-  "homepage": "https://github.com/steve626/fiendFinder#readme"
+  "homepage": "https://github.com/steve626/fiendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
 }

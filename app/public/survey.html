@@ -9,267 +9,154 @@
 </head>
 <body>
         <div class="jumbotron" >
-            <div class="col-md-6">
-                <h1 class="display-4">Misfit's Fiend Finder</h1>
-                
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 id="title" class="display-4">Misfit's Fiend Finder</h1>                
+                        </div>
+                        <div class="col-md-6">
+                        <img id="logo" src="C:\Users\ae062\Desktop\homework\fiendFinder\app\public\images\misfits-fiend-club-Logo-1.jpg"  />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <img id="logo" src="C:\Users\ae062\Desktop\homework\fiendFinder\app\public\images\misfits-fiend-club-Logo-1.jpg"  />
-            </div>
-        </div>
+        
 
         <div class="container">
-            ::before
-            <h2>Survey Questions</h2>
+            <form>
             <hr>
             <h3><strong>About you:</strong></h3>
             <h4>Name (required)</h4>
-            <input type="text" id="name" class="form-control" required>
+            <input type="text" id="friendName" class="form-control" required>
             <h4>Link to photo (required)</h4>
-            <input type="text" id="photo" class="form-control" required>
-            <hr>
-            <hr>
-            <div id="question0" class="custom-control custom-radio">
-                    <strong>The Misfits were better than Danzig</strong>
-                    <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                
-                    <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio2">4</label>
-                    </div>
-                        <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                        </div>
-                            <div class="custom-control custom-radio">
-                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio2">2</label>
-                            </div>
-                                <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                </div>
-                    </div>
-                    <hr>
-        <h5><strong>I think that a Devil's Lock is attractive</strong></h5>
-        <div id="question1" class="custom-control custom-radio">
-            
-            <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-        
-            <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio2">4</label>
-            </div>
-                <div class="custom-control custom-radio">
-                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                </div>
-                    <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio2">2</label>
-                    </div>
-                        <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                        </div>
+            <input type="text" id="friendPhoto" class="form-control" required>
             </div>
             <hr>
-            <div id="question2" class="custom-control custom-radio">
-                    <strong>I need to ask my mommy for permission to do things</strong>
-                    <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                
-                    <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio2">4</label>
-                    </div>
-                        <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                        </div>
-                            <div class="custom-control custom-radio">
-                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio2">2</label>
-                            </div>
-                                <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                </div>
-                    </div>
-                    <hr>
-                    <div id="question3" class="custom-control custom-radio">
-                            <strong>The band should have ended when Glenn left</strong>
-                            <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                        
-                            <div class="custom-control custom-radio">
-                            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio2">4</label>
-                            </div>
-                                <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                                </div>
-                                    <div class="custom-control custom-radio">
-                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio2">2</label>
-                                    </div>
-                                        <div class="custom-control custom-radio">
-                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                        </div>
-                            </div>
+            <hr>
+            <div class="container" id="question-block">
+                <h3>Answer these simple questions to find your match:</h3>
+                    <div class="form-group">
+                            <label for="Q0"><strong>Devil-Locks are attractive</strong></label>
+                            <select class="form-control" id="Q0">
+                              <option>1 (hell yeah!)</option>
+                              <option>2</option>
+                              <option>3 (meh)</option>
+                              <option>4</option>
+                              <option>5 (hell no)</option>
+                            </select>
+                          </div>            
                             <hr>
-                            <div id="question4" class="custom-control custom-radio">
-                                    <strong>I love pro wrestling</strong>
-                                    <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                                
-                                    <div class="custom-control custom-radio">
-                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio2">4</label>
-                                    </div>
-                                        <div class="custom-control custom-radio">
-                                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                                        </div>
-                                            <div class="custom-control custom-radio">
-                                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadio2">2</label>
-                                            </div>
-                                                <div class="custom-control custom-radio">
-                                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                                </div>
-                                    </div>
+                            <div class="form-group">
+                                <label for="Q1"><strong>I love Halloween</strong></label>
+                                <select class="form-control" id="Q1">
+                                    <option>1 (hell yeah!)</option>
+                                    <option>2</option>
+                                    <option>3 (meh)</option>
+                                    <option>4</option>
+                                    <option>5 (hell no)</option>
+                                </select>
+                            </div>            
+                            <hr>
+                                <div class="form-group">
+                                    <label for="Q2"><strong>The Misfits were better With Glenn Danzig</strong></label>
+                                    <select class="form-control" id="Q2">
+                                        <option>1 (hell yeah!)</option>
+                                        <option>2</option>
+                                        <option>3 (meh)</option>
+                                        <option>4</option>
+                                        <option>5 (hell no)</option>
+                                    </select>
+                                </div>            
+                                <hr>
+                                    <div class="form-group">
+                                        <label for="Q3"><strong>Black and White are the only colors in my wardrobe</strong></label>
+                                        <select class="form-control" id="Q3">
+                                            <option>1 (hell yeah!)</option>
+                                            <option>2</option>
+                                            <option>3 (meh)</option>
+                                            <option>4</option>
+                                            <option>5 (hell no)</option>
+                                        </select>
+                                    </div>            
                                     <hr>
-                                    <div id="question5" class="custom-control custom-radio">
-                                            <strong>The Misfits are just KISS for punk kids</strong>
-                                            <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                                        
-                                            <div class="custom-control custom-radio">
-                                            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadio2">4</label>
-                                            </div>
-                                                <div class="custom-control custom-radio">
-                                                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                                                </div>
-                                                    <div class="custom-control custom-radio">
-                                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                                    <label class="custom-control-label" for="customRadio2">2</label>
-                                                    </div>
-                                                        <div class="custom-control custom-radio">
-                                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                                        <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                                        </div>
-                                            </div>
+                                        <div class="form-group">
+                                            <label for="Q4"><strong>I love pro wrestling</strong></label>
+                                            <select class="form-control" id="Q4">
+                                              <option>1 (hell yeah!)</option>
+                                              <option>2</option>
+                                              <option>3 (meh)</option>
+                                              <option>4</option>
+                                              <option>5 (hell no)</option>
+                                            </select>
+                                        </div>            
+                                        <hr>
+                                            <div class="form-group">
+                                                <label for="Q5"><strong>The Misfits are just KISS for punk kids</strong></label>
+                                                <select class="form-control" id="Q5">
+                                                      <option>1 (hell yeah!)</option>
+                                                      <option>2</option>
+                                                      <option>3 (meh)</option>
+                                                      <option>4</option>
+                                                      <option>5 (hell no)</option>
+                                                </select>
+                                            </div>            
                                             <hr>
-                                            <div id="question6" class="custom-control custom-radio">
-                                                    <strong>99 eyes are enough  head</strong>
-                                                    <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                                                    <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                                                
-                                                    <div class="custom-control custom-radio">
-                                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                                    <label class="custom-control-label" for="customRadio2">4</label>
-                                                    </div>
-                                                        <div class="custom-control custom-radio">
-                                                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                                        <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                                                        </div>
-                                                            <div class="custom-control custom-radio">
-                                                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                                            <label class="custom-control-label" for="customRadio2">2</label>
-                                                            </div>
-                                                                <div class="custom-control custom-radio">
-                                                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                                                <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                                                </div>
-                                                    </div>
-                                                    <hr>
-                                                    <div id="question7" class="custom-control custom-radio">
-                                                            <strong>Sure, you can have my skull</strong>
-                                                            <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                                                            <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                                                        
-                                                            <div class="custom-control custom-radio">
-                                                            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                                            <label class="custom-control-label" for="customRadio2">4</label>
-                                                            </div>
-                                                                <div class="custom-control custom-radio">
-                                                                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                                                <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                                                                </div>
-                                                                    <div class="custom-control custom-radio">
-                                                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                                                    <label class="custom-control-label" for="customRadio2">2</label>
-                                                                    </div>
-                                                                        <div class="custom-control custom-radio">
-                                                                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                                                        <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                                                        </div>
-                                                            </div>
+                                                    <div class="form-group">
+                                                            <label for="Q6"><strong>40 eyes are a good amount</strong></label>
+                                                            <select class="form-control" id="Q6">
+                                                              <option>1 (hell yeah!)</option>
+                                                              <option>2</option>
+                                                              <option>3 (meh)</option>
+                                                              <option>4</option>
+                                                              <option>5 (hell no)</option>
+                                                            </select>
+                                                          </div>            
                                                             <hr>
-                                                            <div id="question8" class="custom-control custom-radio">
-                                                                    <strong>My ideal night is Netflix and kill</strong>
-                                                                    <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                                                                    <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                                                                
-                                                                    <div class="custom-control custom-radio">
-                                                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                                                    <label class="custom-control-label" for="customRadio2">4</label>
-                                                                    </div>
-                                                                        <div class="custom-control custom-radio">
-                                                                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                                                        <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                                                                        </div>
-                                                                            <div class="custom-control custom-radio">
-                                                                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                                                            <label class="custom-control-label" for="customRadio2">2</label>
-                                                                            </div>
-                                                                                <div class="custom-control custom-radio">
-                                                                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                                                                <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                                                                </div>
-                                                                    </div>
+                                                            <div class="form-group">
+                                                                    <label for="Q7"><strong>Sure, you can have my skull</strong></label>
+                                                                    <select class="form-control" id="Q7">
+                                                                      <option>1 (hell yeah!)</option>
+                                                                      <option>2</option>
+                                                                      <option>3 (meh)</option>
+                                                                      <option>4</option>
+                                                                      <option>5 (hell no)</option>
+                                                                    </select>
+                                                                  </div>            
                                                                     <hr>
-                                                                    <strong>Leather Jackets with Crimson Skulls are required apparel</strong>
-                                                                            <div id="question9" class="custom-control custom-radio">                                                                                    
-                                                                                    <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
-                                                                                    <label class="custom-control-label" for="customRadio1">5 (most agree)</label>
-                                                                                
-                                                                                    <div class="custom-control custom-radio">
-                                                                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                                                                    <label class="custom-control-label" for="customRadio2">4</label>
-                                                                                    </div>
-                                                                                        <div class="custom-control custom-radio">
-                                                                                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                                                                        <label class="custom-control-label" for="customRadio2">3 (neutral)</label>
-                                                                                        </div>
-                                                                                            <div class="custom-control custom-radio">
-                                                                                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                                                                            <label class="custom-control-label" for="customRadio2">2</label>
-                                                                                            </div>
-                                                                                                <div class="custom-control custom-radio">
-                                                                                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                                                                                <label class="custom-control-label" for="customRadio2">1 (most disagree)</label>
-                                                                                                </div>
-                                                                                    </div>
+                                                                    <div class="form-group">
+                                                                            <label for="Q8"><strong>My ideal night is Netflix and kill</strong></label>
+                                                                            <select class="form-control" id="Q8">
+                                                                              <option>1 (hell yeah!)</option>
+                                                                              <option>2</option>
+                                                                              <option>3 (meh)</option>
+                                                                              <option>4</option>
+                                                                              <option>5 (hell no)</option>
+                                                                            </select>
+                                                                          </div>            
+                                                                            <hr>
+                                                                                <div class="form-group">
+                                                                                    <label for="Q9"><strong>I need to ask my mommy persmission to do things</strong></label>
+                                                                                    <select class="form-control" id="Q9">
+                                                                                      <option>1 (hell yeah!)</option>
+                                                                                      <option>2</option>
+                                                                                      <option>3 (meh)</option>
+                                                                                      <option>4</option>
+                                                                                      <option>5 (hell no)</option>
+                                                                                    </select>
+                                                                                </div>            
                                                                                     <hr>
+                                                                                    <hr>
+                                                                    
         </div>
-
-
+        <button id="sub-btn" type="submit" class="btn btn-light btn-lg"><strong>Submit</strong></button>
+    </form>
     </div>
-
 </body>
 <style>
     .jumbotron {
         background: black;
-        color: white;
+        color: whitesmoke;
         
     }
 
@@ -277,7 +164,62 @@
         height: 255px;
         width: 255px;
         float: right;
+        margin-right: 120px;
     }
+
+    #title {
+        margin-left: 120px;
+        font-style: bold;
+    }
+    body {
+        background: black;
+        color: whitesmoke
+    }  
+    #sub-btn {
+        margin-left: 18%;
+    }
+
     
 </style>
 </html>
+<script type="text/javascript">
+$(".submit").on("click", function(event){
+    event.preventDefault();
+
+    var newFriend = {
+        name: $("#friendName").val().trim(),
+        photo: $("#friendPhoto").val().trim(),
+        scores: [
+            $("#Q0"),
+            $("#Q1"),
+            $("#Q2"),
+            $("#Q3"),
+            $("#Q4"),
+            $("#Q5"),
+            $("#Q6"),
+            $("#Q7"),
+            $("#Q8"),
+            $("#Q9")
+            
+        ]
+    };
+
+    console.log(newFriend);
+
+    $.post("/api/friends", newFriend,
+function(data){
+
+    if(data) {
+        alert("Hold on, we're working on your match...");
+    }
+    else {
+        alert("Well, if you want a friend, you'll need to enter some info");
+    }
+
+    $("#friendName").val("");
+    $("#friendPhoto").val("");
+    $(".form-control").attr('checked',false);
+
+    });
+})
+</script>
